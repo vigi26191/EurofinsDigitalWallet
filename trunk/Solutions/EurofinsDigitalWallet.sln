@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EurofinsDigitalWallet.Repositories", "EurofinsDigitalWallet.Repositories", "{270B2300-8DE5-4E9F-AC90-A31326985A5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EurofinsDigitalWallet.Data", "EurofinsDigitalWallet.Data", "{81145B7F-E578-49EF-B46D-4232677CB5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EurofinsDigitalWallet.IRepositories", "..\Libraries\EurofinsDigitalWallet.IRepositories\EurofinsDigitalWallet.IRepositories.csproj", "{FADB0059-D533-41B9-A001-D1F132AC4EEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EurofinsDigitalWallet.Entities", "EurofinsDigitalWallet.Entities", "{1B516414-2734-4D47-AAF4-E8BDE7C19CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EurofinsDigitalWallet.Entities", "..\Libraries\EurofinsDigitalWallet.Entities\EurofinsDigitalWallet.Entities.csproj", "{9E17E99B-4997-4CAE-A26C-0774D5B15895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EurofinsDigitalWallet.DAL", "..\Libraries\EurofinsDigitalWallet.DAL\EurofinsDigitalWallet.DAL.csproj", "{8F4FEF41-2B79-44FC-B1A1-956149600AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EurofinsDigitalWallet.Business", "EurofinsDigitalWallet.Business", "{159C9641-596D-488A-AEEB-A2B04A7873CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EurofinsDigitalWallet.BAL", "..\Libraries\EurofinsDigitalWallet.BAL\EurofinsDigitalWallet.BAL.csproj", "{5B402981-E92B-429C-A111-ED4EC72D638F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FADB0059-D533-41B9-A001-D1F132AC4EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADB0059-D533-41B9-A001-D1F132AC4EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADB0059-D533-41B9-A001-D1F132AC4EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADB0059-D533-41B9-A001-D1F132AC4EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E17E99B-4997-4CAE-A26C-0774D5B15895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E17E99B-4997-4CAE-A26C-0774D5B15895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E17E99B-4997-4CAE-A26C-0774D5B15895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E17E99B-4997-4CAE-A26C-0774D5B15895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4FEF41-2B79-44FC-B1A1-956149600AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4FEF41-2B79-44FC-B1A1-956149600AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4FEF41-2B79-44FC-B1A1-956149600AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4FEF41-2B79-44FC-B1A1-956149600AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B402981-E92B-429C-A111-ED4EC72D638F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B402981-E92B-429C-A111-ED4EC72D638F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B402981-E92B-429C-A111-ED4EC72D638F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B402981-E92B-429C-A111-ED4EC72D638F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FADB0059-D533-41B9-A001-D1F132AC4EEA} = {270B2300-8DE5-4E9F-AC90-A31326985A5C}
+		{9E17E99B-4997-4CAE-A26C-0774D5B15895} = {1B516414-2734-4D47-AAF4-E8BDE7C19CB5}
+		{8F4FEF41-2B79-44FC-B1A1-956149600AB7} = {81145B7F-E578-49EF-B46D-4232677CB5D0}
+		{5B402981-E92B-429C-A111-ED4EC72D638F} = {159C9641-596D-488A-AEEB-A2B04A7873CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F73A3F5A-9324-441D-951E-C115D25831CD}
+	EndGlobalSection
+EndGlobal
