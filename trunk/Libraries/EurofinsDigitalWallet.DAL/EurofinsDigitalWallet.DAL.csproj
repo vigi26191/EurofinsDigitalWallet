@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="Concretes\Repository.cs" />
+    <Compile Include="Concretes\UnitOfWork.cs" />
     <Compile Include="EntityConfigurations\InvestmentConfig.cs" />
     <Compile Include="EntityConfigurations\InvestmentTypeConfig.cs" />
     <Compile Include="Migrations\202006021354295_InitialCreate.cs" />
